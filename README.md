@@ -7,14 +7,15 @@ This is a simple WebHook Log Parser. It process and summarizes Url's and HTTP St
 - Use Golang to best performance parsing file
 - Use cmd package structure to reuse parser as a library
 
-## Getting Started
+## Setup
+Instructions:
 
-Instructions
 1. Download Go.
 Download the latest version of Go for your platform here: https://golang.org/dl/.
 
 2. Install Go.
-Follow the instructions for your platform to install the Go tools: https://golang.org/doc/install#install. It is recommended to use the default installation settings.
+Follow the instructions for your platform to install the Go tools: https://golang.org/doc/install#install. 
+It is recommended to use the default installation settings.
 
 3. Test your Go installation.
 
@@ -23,10 +24,12 @@ Create and run the hello.go application described here: https://golang.org/doc/i
 If you set up your Go environment correctly, you should be able to run “hello” from any directory and see the program execute successfully.
 
 ### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Follow the steps bellow to Install Package Application on your local machine
+```
+go get github.com/paulohsl/webhookparser/
+cd $GOPATH/src/github.com/paulohsl/webhookparser/cmd/webhookparser
+go install
+```
 
 ## Running the tests
 
