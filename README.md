@@ -9,11 +9,18 @@ This is a simple WebHook Log Parser. It process and summarizes Url's and HTTP St
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Instructions
+1. Download Go.
+Download the latest version of Go for your platform here: https://golang.org/dl/.
 
-### Prerequisites
+2. Install Go.
+Follow the instructions for your platform to install the Go tools: https://golang.org/doc/install#install. It is recommended to use the default installation settings.
 
-What things you need to install the software and how to install them
+3. Test your Go installation.
+
+Create and run the hello.go application described here: https://golang.org/doc/install#testing.
+
+If you set up your Go environment correctly, you should be able to run “hello” from any directory and see the program execute successfully.
 
 ### Installing
 
