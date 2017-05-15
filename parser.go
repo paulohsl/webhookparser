@@ -73,7 +73,7 @@ func PrintTopRanked(typeMap map[string]int, top int) {
 	rankedMap := rankByQuantity(typeMap)
 
 	i := 0
-	for i < top {
+	for i < top && i < cap(rankedMap) {
 		fmt.Println(rankedMap[i])
 		i++
 	}
